@@ -8,5 +8,5 @@ type Adapter interface {
 	//Get Cache Get
 	Get(key string) ([]byte, error)
 	//Del Cache Del
-	Del(key string) (bool, error)
+	Del(key string) error
 }
